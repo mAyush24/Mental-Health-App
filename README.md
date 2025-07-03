@@ -1,30 +1,59 @@
-# Mental health app
+# 🌿 MindFullMe
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**MindFullMe** is a web-based Mental Health Companion application designed to help users manage stress, track mood patterns, and build positive self-care habits. With daily check-ins, personalized AI-powered wellness suggestions, and a supportive peer community, MindFullMe promotes mindfulness and emotional well-being.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ayush-mishras-projects-76b2092b/v0-mental-health-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/x2HeaoP0fS6)
+---
 
-## Overview
+## ✨ Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **🧠 Daily Mood Tracker**
+  - Emoji/slider-based mood input
+  - Optional journaling for reflection
+  - Calendar view to track emotional trends
 
-## Deployment
+- **🤖 AI-Powered Self-Care Suggestions**
+  - Personalized wellness advice based on mood history
+  - Includes breathing exercises, mindfulness tips, and gratitude journaling prompts
 
-Your project is live at:
+- **💬 Anonymous Peer Support Community**
+  - Text-based forum with complete anonymity
+  - Positive-only reactions to create a safe, empathetic space
 
-**[https://vercel.com/ayush-mishras-projects-76b2092b/v0-mental-health-app](https://vercel.com/ayush-mishras-projects-76b2092b/v0-mental-health-app)**
+- **🏆 Gamification & Progress Tracking**
+  - Points, badges, and streaks for daily check-ins and self-care activities
+  - Visual dashboards to track mental wellness over time
 
-## Build your app
+---
 
-Continue building your app on:
+## ⚙️ Tech Stack
 
-**[https://v0.dev/chat/projects/x2HeaoP0fS6](https://v0.dev/chat/projects/x2HeaoP0fS6)**
+- **Framework**: [Next.js](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Plain CSS (no Tailwind), custom components and gradients
+- **Database**: [MongoDB](https://www.mongodb.com/) with Mongoose
+- **Authentication**: JWT-based login/signup (with MongoDB user storage)
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/mindfullme.git
+cd mindfullme
+npm install
+# or
+yarn install
+
+# .env.local
+MONGODB_URI=mongodb+srv://<your-mongodb-uri>
+JWT_SECRET=your_jwt_secret_key
+NEXTAUTH_SECRET=your_auth_secret
+
+
+npm run dev
+# or
+yarn dev
